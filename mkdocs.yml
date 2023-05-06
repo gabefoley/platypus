@@ -1,4 +1,16 @@
 site_name: PLATYPUS
+nav:
+  - ASR curation: 'index.md'
+  - 'Installation and quickstart':
+      - 'Installation': 'install.md'
+      - 'Running example data': 'example.md'
+      - 'Explanation of output' : 'output.md'
+  - 'Detailed explanation':
+      - 'Basic snakemake': 'basic_snakemake.md'
+      - 'Snakemake diagram': 'detailed_explanation.md'
+  - Customisation:
+        - 'Defining files': 'defining_files.md'
+        - 'Customising workflow': 'customising_workflow.md'
 theme:
   name: material
   features:
